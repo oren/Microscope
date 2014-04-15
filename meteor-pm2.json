@@ -1,10 +1,11 @@
 {
-  "name" : "test",
+  "name" : "microscope",
   "script" : "bundle/main.js",
   "MAIL_URL":"smtp://yourmail_configuration_here",
   "MONGO_URL":"mongodb://localhost:27017/meteor",
-  "ROOT_URL":"https://www.example.com/",
+  "ROOT_URL":"https://www.latechnews.com/",
   "PORT":"3000",
-  "out_file":"/home/oren/projects/Microscope/logs/app.log",
-  "error_file":"/home/oren/projects/Microscope/logs/err.log"
+  "out_file":"/home/deploy/logs/app.log",
+  "error_file":"/home/deploy/logs/err.log"
 }
+
